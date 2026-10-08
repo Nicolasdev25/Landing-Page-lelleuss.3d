@@ -90,30 +90,6 @@ lelleuss-site/
     └── preview-mobile.png
 ```
 
-## Como rodar
-
-```bash
-# clone o repositório
-git clone https://github.com/<seu-usuario>/lelleuss-site.git
-
-# entre na pasta
-cd lelleuss-site
-```
-
-Depois é só abrir o `index.html` no navegador. Não precisa de build nem de dependências.
-
-## Personalização
-
-**Número do WhatsApp:** edite a constante no final do `index.html`, usando DDI + DDD, só dígitos.
-
-```js
-const WA_NUMBER = "5582900000000";
-```
-
-**Cores:** altere os tokens dentro de `:root` no começo do `style.css`.
-
-**Conteúdo:** os textos ficam nos blocos `<section>` do `index.html`.
-
 ## Próximos passos
 
 - [ ] Trocar o número de WhatsApp de exemplo pelo real
