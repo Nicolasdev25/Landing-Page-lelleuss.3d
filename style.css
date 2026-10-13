@@ -319,6 +319,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  align-items: start;
 }
 .shot {
   margin: 0;
@@ -329,8 +330,8 @@ header {
 }
 .shot img {
   width: 100%;
-  aspect-ratio: 4/5;
-  object-fit: cover;
+  height: auto; /* mantém a proporção real da foto */
+  display: block; /* remove qualquer vãozinho embaixo da imagem */
 }
 .shot figcaption {
   padding: 14px 18px;
